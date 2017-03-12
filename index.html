@@ -4,29 +4,49 @@
 	<meta mane='description' content='this is an exsample page on
 	how to create a page about jobs'
 
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="main.css"/>
 
-	<title>Grag's list</title>
+	<title>Greg's list</title>
 </head>
 <body>
-<nav>
-	<div class='page'>Creg's List</div>
-		<ul>
-			<li><a href="index/jobs">Post</a></li>
-			<li><a href="userinfo">Account</a></li>
-	</ul>
-</nav>
-<la>Search jobs</la><br>
-		<input type="text" placeholder="Search sofware jobs">
-			<img src="images/magnifying-glass.png">
-		<span class="bottoms">
+	<header>
+			<h1>Greg's List</h1>
+			<nav class="top-nav">
+				<a href="index/jobs">Post</a>
+				<a href="userinfo">Account</a>
+			</nav>
+</hearder>
 
-		</span>
-		<section class="result">
-			<ul>
-      	June 22 <a href="index.html">Technical Project Manajer</a> Midtown<br>
-      	June 21 <a href="display-exercise.html">Front Developer</a> SoHo<br>
-      	June 20 <a href="float-exercise.html">Sinor Python Developor/Confounder</a> Flatiron<br>
-		</section>
+<section class="search-section">
+   <label>Search jobs</label><br>
+		<input type="text" id="search" placeholder="Search sofware jobs" />
+		<input type="image" class="search-button magifying-icon" src="images/magnifying-glass.png" alt="Search" role="button">
+</section>
+
+		<nav class="pages">
+			<a class="pages-button">&lt; prev</a>
+			<span class="pages-display">1 to 100 of 179</span>
+			<a class="pages-botton">next &gt;</a>
+		</nav>
+
+	<main>
+		<ul class="Listings">
+			<li class="Listings">
+				<span class="Listing-date">June 22</span>
+				<a href="#" class=Listing-tittle>Tehnical Project Manager</a>
+				<span class="Listin-location">Midtown East</span>
+			</li>
+			<li class="Listing">
+				<span class="Listing-date">June 22</span>
+				<a href="#" class="listing-tittle">Frontend Developer</a>
+				<span class="listing-location">SoHo</span>
+			</li>
+			<li class="Listing">
+				<span class="listing-date">June 20<span>
+				<a href="#" class="listing-tittle"> Python Developer<a/>
+				<span class="listing-location">Flatiron</span>
+			</li>
+		</ul>
+	</main>
 </body>
 </html>
