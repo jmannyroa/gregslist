@@ -2,40 +2,48 @@
 <html>
 <head>
 	<meta name="description" content="this is an example page on how to create a page about jobs" />
-	<!-- <link rel="stylesheet" href="main.css"/> -->
+	<link rel="stylesheet" type="text/css" href="main.css"/>
 	<title>Greg's list</title>
 </head>
 <body>
+
+	<!-- header -->
 	<header>
-			<h1>Greg's List</h1>
-			<nav class="top-nav">
-				<ul>
-					<li><a href="#">Post</a></li>
-					<li><a href="#">Account</a></li>
-				</ul>
-			</nav>
+		<h1>Greg's List</h1>
+		<nav class="top-nav">
+			<ul>
+				<li><a href="#">Post</a></li>
+				<li><a href="#">Account</a></li>
+			</ul>
+		</nav>
 	</header>
 
-	<form class="search-section">
-	  <label>Search jobs</label>
-		<input type="text" id="search" placeholder="Search sofware jobs" />
-		<input type="image" class="search-button magifying-icon" src="images/magnifying-glass.png" alt="Search" role="button">
-	</form>
-
-	<nav class="pages">
-		<ul>
-			<li><a href="#">&lt; prev</a></li>
-			<li>1 to 100 of 179</li>
-			<li><a href="#"</a></li>
-		</ul>
-	</nav>
-
+	<!-- main content -->
 	<main>
-		<ul class="listings">
-			<li>June 22 <a href="#">Technical Project Manager</a> Midtown East</li>
-			<li>June 21 <a href="#">Frontend Developer</a> SoHo</li>
-			<li>June 20 <a href="#">Python Developer<a/> Flatiron</li>
-		</ul>
+		<form class="search-section">
+		  <label>Search jobs</label>
+			<input type="text" id="search" placeholder="Search sofware jobs" />
+			<input type="image" class="search-button magifying-icon" src="images/magnifying-glass.png" alt="Search" role="button">
+		</form>
+
+		<!-- page navigation -->
+		<nav class="pages">
+			<ul>
+				<li><a href="#">&lt; prev</a></li>
+				<li>1 to 100 of 179</li>
+				<li><a href="#"</a></li>
+			</ul>
+		</nav>
+
+		<!-- listing -->
+		<section>
+			<ul class="listings">
+				<li>June 22 <a href="#">Technical Project Manager</a> Midtown East</li>
+				<li>June 21 <a href="#">Frontend Developer</a> SoHo</li>
+				<li>June 20 <a href="#">Python Developer<a/> Flatiron</li>
+			</ul>
+		</section>
 	</main>
+
 </body>
 </html>
