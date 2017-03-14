@@ -1,51 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta mane='description' content='this is an exsample page on
-	how to create a page about jobs'/>
-
-	<link rel="stylesheet" href="main.css"/>
-
+	<meta name="description" content="this is an example page on how to create a page about jobs" />
+	<!-- <link rel="stylesheet" href="main.css"/> -->
 	<title>Greg's list</title>
 </head>
 <body>
 	<header>
 			<h1>Greg's List</h1>
 			<nav class="top-nav">
-				<a href="index/jobs">Post</a>
-				<a href="userinfo">Account</a>
+				<ul>
+					<li><a href="#">Post</a></li>
+					<li><a href="#">Account</a></li>
+				</ul>
 			</nav>
-</hearder>
+	</header>
 
-<section class="search-section">
-   <label>Search jobs</label><br>
+	<form class="search-section">
+	  <label>Search jobs</label>
 		<input type="text" id="search" placeholder="Search sofware jobs" />
 		<input type="image" class="search-button magifying-icon" src="images/magnifying-glass.png" alt="Search" role="button">
-</section>
+	</form>
 
-		<nav class="pages">
-			<a class="pages-button">&lt; prev</a>
-			<span class="pages-display">1 to 100 of 179</span>
-			<a class="pages-botton">next &gt;</a>
-		</nav>
+	<nav class="pages">
+		<ul>
+			<li><a href="#">&lt; prev</a></li>
+			<li>1 to 100 of 179</li>
+			<li><a href="#"</a></li>
+		</ul>
+	</nav>
 
 	<main>
-		<ul class="Listings">
-			<li class="Listings">
-				<span class="Listing-date">June 22</span>
-				<a href="#" class=Listing-tittle>Tehnical Project Manager</a>
-				<span class="Listin-location">Midtown East</span>
-			</li>
-			<li class="Listing">
-				<span class="Listing-date">June 22</span>
-				<a href="#" class="listing-tittle">Frontend Developer</a>
-				<span class="listing-location">SoHo</span>
-			</li>
-			<li class="Listing">
-				<span class="listing-date">June 20<span>
-				<a href="#" class="listing-tittle"> Python Developer<a/>
-				<span class="listing-location">Flatiron</span>
-			</li>
+		<ul class="listings">
+			<li>June 22 <a href="#">Technical Project Manager</a> Midtown East</li>
+			<li>June 21 <a href="#">Frontend Developer</a> SoHo</li>
+			<li>June 20 <a href="#">Python Developer<a/> Flatiron</li>
 		</ul>
 	</main>
 </body>
